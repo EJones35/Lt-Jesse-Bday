@@ -6,13 +6,7 @@
 	--link-hover: cyan;
 	--card: darkslateblue;
 	--nav: cornflowerblue;
-
-	--command: gray;
-	--operations: red;
-	--science: blue;
-	--engineering: gold;
-	--shuttle: lightgreen;
-	--about: cadetblue;
+	--card-border: cadetblue;
 
 }
 
@@ -103,53 +97,8 @@ nav.general {
 	}
 }
 
-.home-button {
-	font-size: 1.25em;
-}
-
-img.role-icon {
-	height: 2em;
-	width: auto;
-	vertical-align: middle;
-}
-
-img.subteam-icon {
-	height: 3.5em;
-	width: auto;
-	vertical-align: middle;
-}
-
-img.shuttle-subteam-icon {
-	height: 3em;
-}
-
-.command {
-	border-left: 10px solid var(--command);
-	padding: 10px;
-}
-
-.operations {
-	border-left: 10px solid var(--operations);
-	padding: 10px;
-}
-
-.science {
-	border-left: 10px solid var(--science);
-	padding: 10px;
-}
-
-.engineering {
-	border-left: 10px solid var(--engineering);
-	padding: 10px;
-}
-
-.shuttle {
-	border-left: 10px solid var(--shuttle);
-	padding: 10px;
-}
-
 .about {
-	border-left: 10px solid var(--about);
+	border-left: 10px solid var(--card-border);
 	padding: 10px;
 }
 
@@ -198,9 +147,19 @@ summary:focus-visible {
 }
 
 .general-card {
-	border: 5px solid var(--about)
+	border: 5px solid var(--card-border)
 }
 
 h3, h4 {
 	text-decoration: underline;
 }
+
+h3, h4, .no-underline {
+	text-decoration: none;
+}
+
+ img {
+ 	width: 20%;
+ 	height: auto;
+ 	display: block;
+ }
