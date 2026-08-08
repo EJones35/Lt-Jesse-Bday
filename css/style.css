@@ -78,37 +78,17 @@ nav {
 }
 
 nav.general {
-	grid-template-columns: repeat(4, auto);
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
+	align-items: center;
 	gap: 20px;
 	padding: 20px;
-	align-items: center
 }
 
-icons.general {
-	grid-template-columns: repeat(2, auto);
-	justify-content: center;
-	gap: 20px;
-	padding: 20px;
-	align-items: center
-}
-
-@media (max-width: 900px) {
-	nav.general {
-		grid-template-columns: repeat(2, 1fr);
-	}
-	icons.general {
-		grid-template-columns: repeat(2, 1fr);
-	}
-}
-
-@media (max-width: 500px) {
-	nav.general {
-		grid-template-columns: repeat(2, 1fr);
-	}
-	icons.general {
-		grid-template-columns: repeat(2, 1fr);
-	}
+nav.general img {
+	width: 100px;
+	height: auto;
 }
 
 .about {
