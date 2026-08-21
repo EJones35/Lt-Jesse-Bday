@@ -68,10 +68,6 @@ a:focus-visible {
 	top: 0;
 }
 
-.nav {
-	border: 5px solid var(--nav);
-}
-
 nav {
 	display: grid;
 	gap: 10px;

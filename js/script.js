@@ -9,6 +9,11 @@ function reloadTime() {
 
 	let timeLeft = missionDate - today;
 
+	if (timeLeft <= 0) {
+		mainSubtitle.textContent = "4 October 2026 - Deployed!";
+		return;
+	}
+
 	const missionDateDays = Math.floor(timeLeft / 86400000);
 	timeLeft -= missionDateDays * 86400000;
 
@@ -31,6 +36,11 @@ function reloadMission1Time() {
 
 	let timeLeft = missionDate - today;
 
+	if (timeLeft <= 0) {
+		mission1Subtitle.textContent = "Deployment underway!";
+		return;
+	}
+
 	const missionDateDays = Math.floor(timeLeft / 86400000);
 	timeLeft -= missionDateDays * 86400000;
 
@@ -52,6 +62,11 @@ function reloadMission2Time() {
 	const today = Date.now();
 
 	let timeLeft = missionDate - today;
+
+	if (timeLeft <= 0) {
+		mission2Subtitle.textContent = "Deployment underway!";
+		return;
+	}
 
 	const missionDateDays = Math.floor(timeLeft / 86400000);
 	timeLeft -= missionDateDays * 86400000;
