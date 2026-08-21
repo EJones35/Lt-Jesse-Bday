@@ -18,6 +18,8 @@
 
 body {
 	background-color: var(--background);
+	background-image: url("../images/stars.png");
+	background-attachment: fixed;
 	color: var(--text);
 	font-family: "Exo 2", sans-serif;
 	margin: 50px;
@@ -154,12 +156,23 @@ h3, h4 {
 	text-decoration: underline;
 }
 
-h3, h4, .no-underline {
+.no-underline h3,
+.no-underline h4 {
 	text-decoration: none;
 }
 
- img {
- 	width: 20%;
- 	height: auto;
- 	display: block;
- }
+.general-card img {
+	width: 20%;
+	height: auto;
+}
+
+.nav-item {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.nav-logo {
+	height: 32px;
+	width: auto;
+}
