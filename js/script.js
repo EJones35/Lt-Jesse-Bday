@@ -1,6 +1,6 @@
 const mainSubtitle = document.querySelector(".main-subtitle");
 const mission1Subtitle = document.querySelector(".mission1-subtitle");
-const mission2Subtitle = document.querySelector(".mission2-subtitle")
+const mission2Subtitle = document.querySelector(".mission2-subtitle");
 
 
 function reloadTime() {
@@ -72,6 +72,6 @@ function reloadMission2Time() {
 reloadTime();
 reloadMission1Time();
 reloadMission2Time();
-setInterval(reloadTime, 0);
-setInterval(reloadMission1Time, 0);
-setInterval(reloadMission2Time, 0);
+setInterval(reloadTime, 1000);
+setInterval(reloadMission1Time, 1000);
+setInterval(reloadMission2Time, 1000);
