@@ -4,6 +4,7 @@ const mission2Subtitle = document.querySelector(".mission2-subtitle");
 
 
 function reloadTime() {
+	if (!mainSubtitle) return;
 	const missionDate = new Date("2026-10-04T00:00:00").getTime();
 	const today = Date.now();
 
@@ -31,6 +32,7 @@ function reloadTime() {
 }
 
 function reloadMission1Time() {
+	if (!mission1Subtitle) return;
 	const missionDate = new Date("2026-10-04T13:45:00").getTime();
 	const today = Date.now();
 
@@ -58,6 +60,7 @@ function reloadMission1Time() {
 }
 
 function reloadMission2Time() {
+	if (!mission2Subtitle) return;
 	const missionDate = new Date("2026-10-04T15:45:00").getTime();
 	const today = Date.now();
 
