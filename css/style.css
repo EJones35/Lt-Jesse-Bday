@@ -173,9 +173,16 @@ h3, h4 {
 	width: auto;
 }
 
+.mission-patches {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+
 .mission-patch {
-	display: block;
-	margin: 0 auto 30px;
 	width: 250px;
 	max-width: 80%;
 	height: auto;
