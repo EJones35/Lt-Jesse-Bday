@@ -38,12 +38,14 @@ footer {
 	text-align: center;
 }
 
-/* Unofficial / fan-led statement, 27 Sep 2026.
+/* Unofficial / fan-led statement, 27 Sep 2026. Revised the same night.
    Bridge Command's fan-project policy (Tom Black, COO, 27 Sep 2026) asks the
    community to list work clearly as unofficial and fan-led, and not to seek or
-   imply approval. This line is the whole ask - it claims nothing and concedes
-   everything. Kept deliberately small and dimmed: it is a legal note, not a
-   headline, and it must not compete with the thing the site is for. */
+   imply approval. "Unofficial fan project" is what that ask requires. It
+   originally also read "not affiliated with, endorsed by, or approved by" -
+   that was my addition, not the policy's wording, and Ethan cut it: it read as
+   defensive on a birthday site for his friend. Correct call. Kept small and
+   dimmed either way - it is a legal note, not a headline. */
 .disclaimer {
 	text-align: center;
 	font-size: 0.7rem;
